@@ -1,0 +1,17 @@
+[project]
+name = "marimo-reproduce"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "plotly",
+    "nbformat>=5.10.4",
+    "pandas>=2.2.3",
+    "ipykernel>=6.29.5",
+    "anywidget>=0.9.13",
+    "marimo>=0.9.14",
+]
+
+[tool.uv.sources]
+plotly = { path = "packages/plotly-5.24.1+307.g97d6cb1ba-py3-none-any.whl" }
