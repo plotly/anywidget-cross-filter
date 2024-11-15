@@ -1,4 +1,8 @@
-## Complex example
+## Cross-filtering with AnyWidget
+
+A simple cross filtering example for Jupyter and Marimo, using the new AnyWidget support in Plotly.py.
+
+![demo](demo.gif)
 
 To run:
 ```
